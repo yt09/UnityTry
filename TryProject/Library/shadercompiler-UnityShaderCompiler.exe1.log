@@ -1,0 +1,28 @@
+Base path: D:/unity5.3.8/Unity/Editor/Data
+Cmd: getPlatforms
+Cmd: disassembleShader
+  api=15 insize=2545 outsize=4181 ok=1
+Cmd: disassembleShader
+  api=17 insize=2869 outsize=4750 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=6989 outsize=1152 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=10 insize=1152 outsize=2017 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=6989 outsize=1152 kw=POINT_COOKIE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=10 insize=1152 outsize=2017 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6989 outsize=2169 kw=DIRECTIONAL_COOKIE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=15 insize=2169 outsize=3655 ok=1
+Cmd: disassembleShader
+  api=17 insize=2261 outsize=3887 ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=6989 outsize=2124 kw=SPOT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=12 insize=2124 outsize=3452 ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6989 outsize=2509 kw=DIRECTIONAL_COOKIE pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: disassembleShader
+  api=17 insize=2509 outsize=4227 ok=1

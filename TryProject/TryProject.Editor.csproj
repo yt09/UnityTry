@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3CF69FB9-84A2-4BF2-8D61-F2D46A2B9230}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.3.8f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_8;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_8;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="VacuumShaders">
+      <HintPath>Assets\VacuumShaders\Editor\VacuumShaders.dll</HintPath>
+    </Reference>
+    <Reference Include="VacuumShaders.FlowVC">
+      <HintPath>Assets\VacuumShaders\Flow\Editor\VacuumShaders.FlowVC.dll</HintPath>
+    </Reference>
+    <Reference Include="VacuumShaders.Flow_Editor">
+      <HintPath>Assets\VacuumShaders\Flow\Editor\VacuumShaders.Flow_Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VacuumShaders.Flow">
+      <HintPath>Assets\VacuumShaders\Flow\Script\VacuumShaders.Flow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="TryProject.csproj">
+      <Project>{B824F9D1-74CC-3FE4-1B5C-F12997C0CBB1}</Project>
+      <Name>TryProject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\StixGames - DirectX 11 Grass Shader\Editor\GrassEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\NewUnlitShader.shader" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\Example\Textures\CGTextures.txt" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\Grass.shader" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassDefinitionsAndFunctions.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassFrag.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassGeom.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassSurface.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassTessellation.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassVertex.cginc" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Refractive.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Refractive.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Unlit.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Unlit\BU_Flow_Texture.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Unlit\BU_Flow_Transprent.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Diffuse\M_BD_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Diffuse\M_BD_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Diffuse\M_BD_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Transparent\M_BT_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Transparent\M_BT_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Transparent\M_BT_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_Refractive.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_Refractive_Fast.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Refractive.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Refractive_Fast.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Unlit.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Unlit\M_U_Flow_Texture.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Unlit\M_U_Flow_Texture_LM.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Unlit\M_U_Flow_Transprent.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Unlit\M_U_Flow_Transprent_LM.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

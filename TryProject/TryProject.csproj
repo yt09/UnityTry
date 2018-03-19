@@ -61,9 +61,81 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
+    <Reference Include="VacuumShaders.Flow">
+      <HintPath>Assets\VacuumShaders\Flow\Script\VacuumShaders.Flow.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ParticleSea.cs" />
+    <Compile Include="Assets\StixGames - DirectX 11 Grass Shader\Example\SimpleMover.cs" />
+    <Compile Include="Assets\StixGames - DirectX 11 Grass Shader\Scripts\CircularDisplacer.cs" />
+    <Compile Include="Assets\StixGames - DirectX 11 Grass Shader\Scripts\GrassManipulationUtility.cs" />
+    <Compile Include="Assets\StixGames - DirectX 11 Grass Shader\Scripts\GrassTextureAdder.cs" />
+    <Compile Include="Assets\StixGames - DirectX 11 Grass Shader\Scripts\TextureUpdater.cs" />
+    <Compile Include="Assets\VacuumShaders\Flow\Example Scenes\Scripts\TreeLookAt.cs" />
+    <Compile Include="Assets\test.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\NewUnlitShader.shader" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\Example\Textures\CGTextures.txt" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\Grass.shader" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassDefinitionsAndFunctions.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassFrag.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassGeom.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassSurface.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassTessellation.cginc" />
+    <None Include="Assets\StixGames - DirectX 11 Grass Shader\GrassVertex.cginc" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_BumpSpecular\BBS_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Diffuse\BD_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Base_Transparent\BT_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Refractive.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\No_Base\Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Paralax.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Reflective.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Refractive.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Special\Flow_Unlit.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Unlit\BU_Flow_Texture.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\Flow\Unlit\BU_Flow_Transprent.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Diffuse\M_BD_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Diffuse\M_BD_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Diffuse\M_BD_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Transparent\M_BT_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Transparent\M_BT_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Base_Transparent\M_BT_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_Refractive.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_Refractive_Fast.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\No_Base\M_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_BumpSpecular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Diffuse.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Refractive.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Refractive_Fast.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Specular.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Special\M_S_Flow_Unlit.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Unlit\M_U_Flow_Texture.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Unlit\M_U_Flow_Texture_LM.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Unlit\M_U_Flow_Transprent.shader" />
+    <None Include="Assets\VacuumShaders\Flow\Shaders\FlowMobile\Unlit\M_U_Flow_Transprent_LM.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

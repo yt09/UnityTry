@@ -1,4 +1,4 @@
 sceneSetups:
-- path: "Assets/Scenes/\u7C92\u5B50\u7CFB\u7EDF.unity"
+- path: Assets/VacuumShaders/Flow/Example Scenes/River.unity
   isLoaded: 1
   isActive: 1
